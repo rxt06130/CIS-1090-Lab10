@@ -21,5 +21,14 @@ let myFish = {
 }
 
 //❓❓ LAB QUESTION 6, 7, 8:
+
+
+function introduce(myPet){
+    console.log("Speak, " + myPet.name );
+};
+
 console.log("Speak, " + myCat.name );
-myCat.speak();
+myCat.speak();  
+
+console.log("Speak, " + myDog.name );
+myDog.speak();  
